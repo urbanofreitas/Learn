@@ -2,3 +2,34 @@
 2024-12-23 15:53:49,923 - INFO - Status Code: 200
 2024-12-23 15:53:49,923 - INFO - Payload Size: 83 bytes
 2024-12-23 15:53:49,923 - INFO - Time Taken: 0.1819 seconds
+2024-12-26 10:01:57,505 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 10:01:57,506 - INFO - Status Code: 200
+2024-12-26 10:01:57,506 - INFO - Payload Size: 83 bytes
+2024-12-26 10:01:57,507 - INFO - Time Taken: 0.1875 seconds
+2024-12-26 10:03:09,561 - ERROR - Error fetching data:HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /todos/1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fee919f1fd0>: Failed to resolve 'jsonplaceholder.typicode.com' ([Errno -3] Temporary failure in name resolution)"))
+2024-12-26 10:08:56,578 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 10:08:56,578 - INFO - Status Code: 200
+2024-12-26 10:08:56,578 - INFO - Payload Size: 83 bytes
+2024-12-26 10:08:56,578 - INFO - Time Taken: 0.1160 seconds
+2024-12-26 13:01:53,255 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 13:01:53,258 - INFO - Status Code: 200
+2024-12-26 13:01:53,258 - INFO - Payload Size: 83 bytes
+2024-12-26 13:01:53,258 - INFO - Number of Records got: 4 
+2024-12-26 13:01:53,258 - INFO - Time Taken: 0.1430 seconds
+2024-12-26 13:09:13,533 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 13:09:13,533 - INFO - Status Code: 200
+2024-12-26 13:09:13,533 - INFO - Payload Size: 83 bytes
+2024-12-26 13:09:13,533 - INFO - Number of Records got: 4 
+2024-12-26 13:09:13,533 - INFO - Number of Records got: 4 
+2024-12-26 13:09:13,533 - INFO - Time Taken: 0.1120 seconds
+2024-12-26 13:11:51,185 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 13:11:51,185 - INFO - Status Code: 200
+2024-12-26 13:11:51,185 - INFO - Payload Size: 83 bytes
+2024-12-26 13:11:51,185 - INFO - Number of Records got: 4 
+2024-12-26 13:11:51,185 - INFO - Size Test: 16 
+2024-12-26 13:11:51,185 - INFO - Time Taken: 0.1283 seconds
+2024-12-26 14:41:44,380 - INFO - URL: https://jsonplaceholder.typicode.com/todos/1
+2024-12-26 14:41:44,381 - INFO - Status Code: 200
+2024-12-26 14:41:44,381 - INFO - Payload Size: 83 bytes
+2024-12-26 14:41:44,381 - INFO - Number of Records got: 4 
+2024-12-26 14:41:44,382 - INFO - Time Taken: 0.1506 seconds

@@ -16,13 +16,28 @@ def fetch_data(url):
         end_time = time.time()
         elapsed_time = end_time - start_time
         payload_size = len(response.content)
+        number_of_records = len(response.json())#Added by me (not the original code)
+        data_received_type = type(response.json())
+        logging.info(f"Data Received Type: {data_received_type} ") #Added by me (not the original code)
 
         logging.info(f"URL: {url}")
         logging.info(f"Status Code: {response.status_code}")
         logging.info(f"Payload Size: {payload_size} bytes")
+        logging.info(f"Number of Records got: {number_of_records} ") #Added by me (not the original code)
+        logging.info(f"Time Taken: {elapsed_time:.4f} seconds")
+        
+        return response.json()        
+        
+        '''
+        # below is a failed 
+        #Get the number of "lines" in the json response
+        size_test = response.__sizeof__()
+        logging.info(f"Size Test: {size_test} ") #Added by me (not the original code)
+
         logging.info(f"Time Taken: {elapsed_time:.4f} seconds")
 
-        return response.json()
+        '''
+
 
     except requests.exceptions.RequestException as e:
         logging.error(f"Error fetching data:{e}")
@@ -35,3 +50,4 @@ if __name__ == "__main__":
 
     if data:
         print(json.dumps(data, indent=4)) # Pretty print the json data
+        print(data)
